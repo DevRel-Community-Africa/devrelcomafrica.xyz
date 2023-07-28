@@ -1,5 +1,5 @@
 export type ButtonTypes = {
   url: string;
   label: string;
-  type: "primary" | "outline";
+  type: "primary" | "secondary";
 };
