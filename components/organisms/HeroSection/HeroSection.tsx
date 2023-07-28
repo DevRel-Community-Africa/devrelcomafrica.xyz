@@ -4,14 +4,14 @@ import Image from "next/image";
 export function HeroSection() {
   return (
     <section className="bg-secondary h-screen">
-      <div className="container mx-auto px-4 py-10 h-full">
-        <div className="flex justify-between items-center h-full">
-          <div>
-            <h1 className="text-5xl font-heading">
+      <div className="container mx-auto px-8 py-10 h-full">
+        <div className="flex justify-between items-center gap-5 h-full">
+          <div className="">
+            <h1 className="text-5xl font-heading font-bold">
               Fostering the relevance of DevRel across Africa one developer at a
               time
             </h1>
-            <div className="mt-8 flex gap-5">
+            <div className="mt-8 flex lg:flex-row flex-col gap-5 text-center">
               <Button url="#" label="Join our community" type="primary" />
               <Button
                 url="#"
@@ -20,7 +20,7 @@ export function HeroSection() {
               />
             </div>
           </div>
-          <div>
+          <div className="lg:block hidden">
             <Image src={heroImage} alt="DevRel Africa Image" />
           </div>
         </div>
