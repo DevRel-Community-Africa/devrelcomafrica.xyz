@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      primary: {
+        light: "##E4F4E9",
+        DEFAULT: "#038046",
+      },
+      secondary: {
+        DEFAULT: "#FFF9F7",
+      },
+    },
+    fontFamily: {
+      heading: ["Epilogue", "sans-serif"],
+      sans: ["Epilogue", "sans-serif"],
+    },
   },
   plugins: [],
 };
