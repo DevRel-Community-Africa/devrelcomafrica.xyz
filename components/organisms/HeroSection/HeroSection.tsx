@@ -5,9 +5,9 @@ export function HeroSection() {
   return (
     <section className="bg-secondary h-screen">
       <div className="container mx-auto px-8 py-10 h-full">
-        <div className="flex justify-between items-center gap-5 h-full">
+        <div className="flex lg:flex-row flex-col items-center gap-14 h-full mt-24">
           <div className="">
-            <h1 className="text-5xl font-heading font-bold">
+            <h1 className="lg:text-5xl text-3xl font-heading font-bold">
               Fostering the relevance of developer relations across Africa one
               developer at a time
             </h1>
@@ -24,7 +24,7 @@ export function HeroSection() {
               />
             </div>
           </div>
-          <div className="lg:block hidden">
+          <div className="lg:block ">
             <Image src={heroImage} alt="DevRel Africa Image" />
           </div>
         </div>
