@@ -51,28 +51,20 @@ export function Header() {
               />
             </button>
 
-            <div
+            <ul
               className={clsx(
                 open ? "block" : "hidden",
                 "md:flex justify-between md:relative absolute md:bg-transparent bg-secondary left-0 md:top-0 top-24 md:w-fit w-full py-8",
               )}
             >
               {menuLinks.map((link, i) => (
-                <div
-                  key={i}
-                  className="px-8 py-2"
-                  // className={`md:flex md:items-center md:w-auto pl-10 md:pl-0 mt-2 md:mt-0 md:pb-0 md:pt-0 py-8 absolute md:static md:z-auto left-0 w-full transition-all duration-500 ${
-                  //   open
-                  //     ? "top-16 border-t  md:border-0 opacity-100"
-                  //     : "top-[-490px]"
-                  // } md:opacity-100 opacity-0`}
-                >
+                <li key={i} className="px-8 py-2">
                   <Link href={link.url} target="_blank" className=" text-lg">
                     {link.label}
                   </Link>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </nav>
       </div>
