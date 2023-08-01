@@ -27,9 +27,9 @@ const menuLinks = [
 export function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="w-full md:bg-transparent bg-secondary fixed">
+    <header className="w-full lg:bg-transparent bg-secondary fixed">
       <div className="container mx-auto px-8">
-        <nav className="flex justify-between items-center">
+        <nav className="flex justify-between items-center ">
           <div>
             <Image
               src={logo}
@@ -42,7 +42,7 @@ export function Header() {
           <div className=" flex items-center">
             <button
               onClick={() => setOpen(!open)}
-              className=" md:hidden block cursor-pointer"
+              className=" lg:hidden block cursor-pointer"
             >
               <Image
                 src={open ? Close : Menu}
@@ -54,7 +54,7 @@ export function Header() {
             <ul
               className={clsx(
                 open ? "block" : "hidden",
-                "md:flex justify-between md:relative absolute md:bg-transparent bg-secondary left-0 md:top-0 top-24 md:w-fit w-full py-8",
+                "lg:flex justify-between lg:relative absolute lg:bg-transparent bg-secondary left-0 lg:top-0 top-24 lg:w-fit w-full py-8",
               )}
             >
               {menuLinks.map((link, i) => (
