@@ -1,3 +1,3 @@
-import TeamSection from "./TeamSection";
+import { TeamSection } from "./TeamSection";
 
 export default TeamSection;
