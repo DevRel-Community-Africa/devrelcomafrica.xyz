@@ -33,15 +33,15 @@ const teamData = [
 ];
 export function TeamSection() {
   return (
-    <section id="teams" className="bg-[#E4F4E9] p-8 flex flex-col gap-8">
+    <section id="teams" className="bg-primary-light p-8 flex flex-col gap-8">
       <div className="font-semibold text-xl text-left">Meet the Team</div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {teamData.map((item, index) => (
           <div key={index}>
             <Card
-              title={item.userName}
-              position={item.position}
-              imgSource={item.imgUrl}
+              name={item.userName}
+              role={item.position}
+              image={item.imgUrl}
             />
           </div>
         ))}
