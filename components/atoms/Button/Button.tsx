@@ -12,7 +12,8 @@ export function Button({ label, url, type }: ButtonTypes) {
       "bg-secondary text-black border-primary": type === "secondary",
     },
     "rounded border-solid border py-3 px-4 font-medium w-fit",
-  );  
+  );
+
   return (
     <Link href={url} className={className}>
       {label}
