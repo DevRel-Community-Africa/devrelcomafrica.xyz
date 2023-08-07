@@ -1,8 +1,4 @@
 import Card from "@/components/atoms/Card";
-import alexis from "@/public/Alexis.png";
-import shedrack from "@/public/shedrack.png";
-import Image from "next/image";
-import Link from "next/link";
 
 const teamData = [
   {

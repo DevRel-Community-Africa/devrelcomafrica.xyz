@@ -11,7 +11,7 @@ export function Card({ image, name, role }: CardTypes) {
         <Image
           className="object-cover h-[21em]"
           src={image}
-          alt={`image of ${name}`}
+          alt={name}
           width={500}
           height={500}
         />
