@@ -20,6 +20,15 @@ module.exports = {
         heading: ["Epilogue", "sans-serif"],
         sans: ["Epilogue", "sans-serif"],
       },
+      gridTemplateColumns: {
+        "3-auto": "repeat(3, minmax(0, 1fr))",
+      },
+      screens: {
+        sm: "640px", // Small screens, e.g., phones
+        md: "768px", // Medium screens, e.g., tablets
+        lg: "1024px", // Large screens, e.g., desktops
+        xl: "1280px", // Extra-large screens
+      },
     },
   },
   plugins: [],
