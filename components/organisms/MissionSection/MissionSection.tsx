@@ -1,4 +1,5 @@
 import Image from "next/image";
+import blob from "@/public/blob-aesthetic.png";
 
 export function MissionSection() {
   const missions = [
@@ -47,12 +48,12 @@ export function MissionSection() {
   ];
 
   return (
-    <section className="bg-green-100 py-10">
+    <section className="bg-green-100 px-8 py-20 relative">
       <div className="container mx-auto px-2 py-2">
         <div className="text-neutral-800 text-[32px] font-semibold">
           The Mission
         </div>
-        <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-neutral-600 text-sm font-[300] sm:text-lg md:text-xl lg:text-2xl font-normal">
+        <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] lg:text-2xl text-xl ">
           Developer Relations is a significant field in the tech industry.
           Despite the high demand for developer relations professionals during
           this time, there has been little adoption and demand for this field in
@@ -64,34 +65,23 @@ export function MissionSection() {
         </div>
       </div>
       <div className="container mx-auto px-2 py-2">
-        <div className=" mt-6 grid grid-cols-2 gap-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 */}
+        <div className=" mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6 z-10 relative">
           {missions &&
             missions.map((mission) => (
-              <div
-                className="bg-[#FFF] p-2 h-[120px] sm:h-[300px] md:h-[250px] lg:h-[300px] xl:h-[280px]"
-                key={mission.id}
-              >
-                <div className=" mt-2 mb-6 w-12 h-px left-0 top-0 border border-gray-400"></div>
-                <div className="hidden sm:block w-85 left-0 top-[16px] text-emerald-700 text-[10px] font-[8] sm:text-xl md:text-xl lg:text-2xl font-normal">
+              <div className="bg-white px-5 pb-5 pt-10" key={mission.id}>
+                <hr className=" bg-[#222] h-1 w-[50px]" />
+                <div className="w-85 left-0  text-emerald-700  mt-4 md:text-xl text-normal">
                   {mission.title}
-                </div>
-                <div className="block sm:hidden w-85 left-0 top-[16px] text-emerald-700 text-[10px] font-[8] sm:text-xl md:text-xl lg:text-2xl font-normal">
-                  {mission.titleS}
                 </div>
               </div>
             ))}
         </div>
-        {/* <div className="mt-12 flex flex-col sm:flex-row gap-10">
-          <Image
-            src="/blob-aesthetic.png"
-            alt="DevRel Africa Icon"
-            width={580}
-            height={500}
-            className="block sm:top-[540px] left-0 md:top-[540px] left-0 lg:top-[540px] left-0 xl:top-[480px] left-0"
-          />
-        </div> */}
       </div>
+      <Image
+        src={blob}
+        alt="Mission bg pattern"
+        className="absolute left-0 -bottom-20"
+      />
     </section>
   );
 }
