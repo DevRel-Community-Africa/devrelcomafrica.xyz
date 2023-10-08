@@ -7,8 +7,8 @@ import damilola from "@/public/placeholder.png";
 import amarachi from "@/public/placeholder.png";
 export function TeamSection() {
   return (
-    <section className="bg-green-100 py-6">
-      <div className="container mx-auto p-4">
+    <section className="bg-green-100 px-8 py-20 ">
+      <div className="container mx-auto">
         <div className="text-neutral-800 text-[32px] space-y-4 font-semibold">
           Meet the Team
         </div>

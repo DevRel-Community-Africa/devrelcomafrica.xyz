@@ -3,8 +3,8 @@ import heroImage from "@/public/hero-image.png";
 import Image from "next/image";
 export function HeroSection() {
   return (
-    <section className="bg-secondary h-screen">
-      <div className="container mx-auto px-8 py-10 h-full">
+    <section className="bg-secondary">
+      <div className="container mx-auto px-8 py-20 h-full">
         <div className="flex lg:flex-row flex-col items-center gap-14 h-full mt-24">
           <div className="">
             <h1 className="lg:text-5xl text-3xl font-heading font-bold">
