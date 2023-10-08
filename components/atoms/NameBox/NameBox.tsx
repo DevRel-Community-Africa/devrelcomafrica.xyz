@@ -1,8 +1,8 @@
 import React from "react";
 import { NameBoxTypes } from "./types";
 import Image from "next/image";
-import twitter from "@/public/twitter.png";
-import linkedin from "@/public/linkedin.png";
+import twitter from "@/public/twitter.svg";
+import linkedin from "@/public/linkedin.svg";
 import Link from "next/link";
 
 export function NameBox({
