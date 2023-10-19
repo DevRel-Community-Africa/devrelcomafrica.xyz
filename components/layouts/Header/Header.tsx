@@ -27,7 +27,7 @@ const menuLinks = [
 export function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="w-full bg-secondary fixed z-20">
+    <header className="w-full lg:bg-transparent bg-secondary fixed">
       <div className="container mx-auto px-8">
         <nav className="flex justify-between items-center ">
           <div>
