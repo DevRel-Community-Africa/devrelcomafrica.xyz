@@ -5,7 +5,6 @@ import { StorySection } from "@/components/organisms/StorySection/StorySection";
 import { TeamSection } from "@/components/organisms/TeamSection/TeamSection";
 import MissionSection from "@/components/organisms/MissionSection";
 
-
 export default function Home() {
   return (
     <Layout>
