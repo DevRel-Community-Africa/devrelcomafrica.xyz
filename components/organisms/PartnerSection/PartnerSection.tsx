@@ -1,7 +1,7 @@
 import Image from "next/image";
 import partnerImage from "@/public/grusp.png";
 import donateImage from "@/public/donate-image.png";
-import DonateBox from "@/components/atoms/DonateBox";
+import DonateBox from "@/components/molecules/DonateBox";
 
 export function PartnerSection() {
   return (
@@ -19,20 +19,22 @@ export function PartnerSection() {
             className="mb-4"
           />
           <div className=" w-4/6 mt-6">
-            <h3 className="text-4xl font-bold text-center">
+            <h3 className="md:text-4xl text-2xl font-bold text-center">
               Please use this if you are interested in donating to the
               community.
             </h3>
           </div>
         </div>
-        <div className="flex justify-center">
-          <DonateBox />
-          <div>
+        <div className="grid md:grid-cols-5 grid-cols-1 md:gap-24 gap-10 mt-10">
+          <div className="md:col-span-3 col-span-1">
+            <DonateBox />
+          </div>
+          <div className="col-span-2 justify-self-center">
             <Image
               src={donateImage}
               alt="Donate Image"
-              width={300}
-              className="mb-4"
+              // width={300}
+              className="mb-4 md:w-80 w-56"
             />
           </div>
         </div>
