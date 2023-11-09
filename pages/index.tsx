@@ -6,7 +6,6 @@ import TeamSection from "@/components/organisms/TeamSection";
 import MissionSection from "@/components/organisms/MissionSection";
 import PartnerSection from "@/components/organisms/PartnerSection";
 
-
 export default function Home() {
   return (
     <Layout>
