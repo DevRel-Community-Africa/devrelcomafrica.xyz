@@ -53,9 +53,7 @@ export function DonateBox() {
               decimalsLimit={2}
               prefix={"₦"}
               className="rounded-md px-10 border-2 border-gray-300 py-3 font-sans font-light bg-transparent mr-10 mb-5 text-lg outline-2 block md:w-4/5  w-full"
-              onValueChange={(value) =>
-                console.log(setCustomAmount(Number(value)))
-              }
+              onValueChange={(value) => setCustomAmount(Number(value))}
             />
           )}
           <input
