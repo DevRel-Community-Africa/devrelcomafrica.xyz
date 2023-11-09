@@ -5,9 +5,9 @@ export function StorySection() {
   return (
     <section className="bg-secondary px-8 py-20 relative">
       <div className="container mx-auto px-2 py-2">
-        <div className="text-neutral-800 text-[32px] font-semibold">
+        <h2 className="text-neutral-800 text-[32px] font-semibold">
           The story
-        </div>
+        </h2>
         <hr className="w-[156px] h-0.5 bg-primary" />
         <div>
           <p className="mt-10 font-normal text-[#222222] text-[24px] leading-[normal] pt-2 z-10 relative">
