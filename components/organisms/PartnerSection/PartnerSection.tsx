@@ -25,7 +25,7 @@ export function PartnerSection() {
             </h3>
           </div>
         </div>
-        <div className="grid md:grid-cols-5 grid-cols-1 md:gap-24 gap-10 mt-10">
+        <div className="grid md:grid-cols-5 grid-cols-1 md:gap-24 gap-y-10 mt-10">
           <div className="md:col-span-3 col-span-1">
             <DonateBox />
           </div>
