@@ -14,7 +14,7 @@ export function NameBox({
   return (
     <div className="container">
       <div className="pt-5">
-        <p className="font-medium text-[#222222] text-[28px] tracking-[0] leading-[27px] whitespace-nowrap">
+        <p className="font-medium text-[#222222]  tracking-[0] leading-loose text-lg whitespace-nowrap">
           {name}
         </p>
         <div className="">
@@ -38,9 +38,7 @@ export function NameBox({
       </div>
 
       <div>
-        <p className="h-[27px] font-light text-[24px] whitespace-nowrap">
-          {position}
-        </p>
+        <p className="mt-2 font-light text-lg whitespace-nowrap">{position}</p>
       </div>
     </div>
   );
