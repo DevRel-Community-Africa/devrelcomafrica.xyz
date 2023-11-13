@@ -6,6 +6,7 @@ import seunbayo from "@/public/placeholder.png";
 import damilola from "@/public/placeholder.png";
 import amarachi from "@/public/placeholder.png";
 import jamin from "@/public/jamin.png";
+
 export function TeamSection() {
   return (
     <section className="bg-green-100 px-8 py-20 ">
