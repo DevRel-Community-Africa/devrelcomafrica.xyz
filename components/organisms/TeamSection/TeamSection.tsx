@@ -5,6 +5,7 @@ import alexis from "@/public/alexis.png";
 import seunbayo from "@/public/placeholder.png";
 import damilola from "@/public/placeholder.png";
 import amarachi from "@/public/placeholder.png";
+import jamin from "@/public/jamin.png";
 export function TeamSection() {
   return (
     <section className="bg-green-100 px-8 py-20 ">
@@ -13,7 +14,7 @@ export function TeamSection() {
           Meet the Team
         </div>
         <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 pt-5">
-          <div className="">
+          <div>
             <Image src={shedrack} alt="Shedrack Akintayo" />
             <NameBox
               name="Shedrack Akintayo"
@@ -22,7 +23,16 @@ export function TeamSection() {
               twitterUrl="https://twitter.com/coder_blvck"
             />
           </div>
-          <div className="">
+          <div>
+            <Image src={jamin} alt="Trust Jamin" />
+            <NameBox
+              name="Trust Jamin"
+              position="Engineering"
+              linkedinUrl="https://linkedin.com/in/0xjamin"
+              twitterUrl="https://twitter.com/0xJamin"
+            />
+          </div>
+          <div>
             <Image src={seunbayo} alt="Seunbayo Adebayo" />
             <NameBox
               name="Seunbayo Adebayo"
@@ -31,7 +41,7 @@ export function TeamSection() {
               twitterUrl="https://twitter.com/coder_blvck"
             />
           </div>
-          <div className="">
+          <div>
             <Image src={amarachi} alt="Amarachi Iheanacho" />
             <NameBox
               name="Amarachi Iheanacho"
@@ -40,7 +50,7 @@ export function TeamSection() {
               twitterUrl="https://twitter.com/coder_blvck"
             />
           </div>
-          <div className="">
+          <div>
             <Image src={damilola} alt="Damilola Ezekiel" />
             <NameBox
               name="Damilola Ezekiel"
@@ -49,7 +59,7 @@ export function TeamSection() {
               twitterUrl="https://twitter.com/coder_blvck"
             />
           </div>
-          <div className="">
+          <div>
             <Image src={alexis} alt="Alexis Abakasanga" />
             <NameBox
               name="Alexis Abakasanga"
