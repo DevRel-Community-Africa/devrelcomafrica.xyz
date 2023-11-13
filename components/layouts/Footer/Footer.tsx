@@ -24,7 +24,7 @@ export function Footer() {
               </Link>
             </div>
             <p className="text-sm text-gray-400 my-6">
-              Copyright DevRelommunityafrica. All rights reserved.
+              Copyright DevRel Community Africa. All rights reserved.
             </p>
           </div>
 
