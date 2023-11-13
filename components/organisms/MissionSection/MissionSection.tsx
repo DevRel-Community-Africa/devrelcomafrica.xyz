@@ -71,7 +71,7 @@ export function MissionSection() {
               <div className="bg-white px-5 pb-5 pt-10" key={mission.id}>
                 <hr className=" bg-[#222] h-1 w-[50px]" />
                 <div className="w-85 left-0  text-emerald-700  mt-4 md:text-lg text-normal">
-                    {mission.title}
+                  {mission.title}
                 </div>
               </div>
             ))}
