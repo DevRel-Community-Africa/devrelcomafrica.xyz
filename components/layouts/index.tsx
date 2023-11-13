@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "./Header";
 import Seo from "./Seo";
+import Footer from "./Footer";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -22,6 +23,7 @@ export default function Layout({ children }: LayoutProps) {
       </Head>
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }

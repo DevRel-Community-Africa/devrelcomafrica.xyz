@@ -1,9 +1,11 @@
 import Image from "next/image";
 import HeroSection from "@/components/organisms/HeroSection";
 import Layout from "@/components/layouts";
-import { StorySection } from "@/components/organisms/StorySection/StorySection";
-import { TeamSection } from "@/components/organisms/TeamSection/TeamSection";
+import StorySection from "@/components/organisms/StorySection";
+import TeamSection from "@/components/organisms/TeamSection";
 import MissionSection from "@/components/organisms/MissionSection";
+import PartnerSection from "@/components/organisms/PartnerSection";
+import NewsletterSection from "@/components/organisms/NewsletterSection";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <StorySection />
       <MissionSection />
       <TeamSection />
+      <PartnerSection />
+      <NewsletterSection />
     </Layout>
   );
 }

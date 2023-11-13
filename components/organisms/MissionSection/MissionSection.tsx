@@ -53,7 +53,7 @@ export function MissionSection() {
         <div className="text-neutral-800 text-[32px] font-semibold">
           The Mission
         </div>
-        <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] lg:text-2xl text-xl ">
+        <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] text-lg leading-loose">
           Developer Relations is a significant field in the tech industry.
           Despite the high demand for developer relations professionals during
           this time, there has been little adoption and demand for this field in
@@ -70,8 +70,8 @@ export function MissionSection() {
             missions.map((mission) => (
               <div className="bg-white px-5 pb-5 pt-10" key={mission.id}>
                 <hr className=" bg-[#222] h-1 w-[50px]" />
-                <div className="w-85 left-0  text-emerald-700  mt-4 md:text-xl text-normal">
-                  {mission.title}
+                <div className="w-85 left-0  text-emerald-700  mt-4 md:text-lg text-normal">
+                    {mission.title}
                 </div>
               </div>
             ))}

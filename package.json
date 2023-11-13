@@ -19,7 +19,9 @@
     "eslint-config-next": "13.4.12",
     "next": "13.4.12",
     "react": "18.2.0",
+    "react-currency-input-field": "^3.6.12",
     "react-dom": "18.2.0",
+    "react-paystack": "^4.0.3",
     "typescript": "5.1.6"
   },
   "devDependencies": {
