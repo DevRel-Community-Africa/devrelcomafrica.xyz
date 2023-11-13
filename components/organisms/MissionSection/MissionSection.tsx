@@ -54,6 +54,7 @@ export function MissionSection() {
           The Mission
         </div>
         <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] text-lg leading-loose">
+        <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] text-lg leading-loose">
           Developer Relations is a significant field in the tech industry.
           Despite the high demand for developer relations professionals during
           this time, there has been little adoption and demand for this field in
