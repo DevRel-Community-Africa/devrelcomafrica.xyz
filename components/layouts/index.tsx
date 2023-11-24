@@ -8,7 +8,7 @@ type LayoutProps = {
 };
 export default function Layout({ children }: LayoutProps) {
   const seo = {
-    title: "DevRelComAfrica",
+    title: "DevRel Community Africa",
     description:
       " A platform for fostering the relevance of developer relations across Africa one developer at a time",
     url: " https://devrelcomafrica.xyz/",
