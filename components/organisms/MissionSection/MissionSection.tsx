@@ -54,14 +54,17 @@ export function MissionSection() {
           The Mission
         </div>
         <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] text-lg leading-loose">
-          Developer Relations is a significant field in the tech industry.
-          Despite the high demand for developer relations professionals during
-          this time, there has been little adoption and demand for this field in
-          Africa, with only a small number of professionals from the continent.
-          DevRel Community Africa is a non-profit community that aims to bring
-          together developer relations experts and enthusiasts from all parts of
-          Africa to share knowledge, support each other&apos;s growth and
-          promote the field of developer relations in the region.
+          <div className="mt-6 sm:mt-6 md:mt-8 lg:mt-10 text-[#222] text-lg leading-loose">
+            Developer Relations is a significant field in the tech industry.
+            Despite the high demand for developer relations professionals during
+            this time, there has been little adoption and demand for this field
+            in Africa, with only a small number of professionals from the
+            continent. DevRel Community Africa is a non-profit community that
+            aims to bring together developer relations experts and enthusiasts
+            from all parts of Africa to share knowledge, support each
+            other&apos;s growth and promote the field of developer relations in
+            the region.
+          </div>
         </div>
       </div>
       <div className="container mx-auto px-2 py-2">

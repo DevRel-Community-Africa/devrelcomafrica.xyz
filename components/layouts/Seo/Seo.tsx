@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { SEOTypes } from "./types";
 
 export function Seo({ seo }: { seo: SEOTypes }) {
