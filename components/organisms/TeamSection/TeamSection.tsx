@@ -2,7 +2,7 @@ import Image from "next/image";
 import NameBox from "@/components/atoms/NameBox";
 import shedrack from "@/public/shedrack.png";
 import alexis from "@/public/alexis.png";
-import seunbayo from "@/public/placeholder.png";
+import seunbayo from "@/public/bayo.png";
 import damilola from "@/public/placeholder.png";
 import amarachi from "@/public/placeholder.png";
 import jamin from "@/public/jamin.png";
@@ -36,10 +36,10 @@ export function TeamSection() {
           <div>
             <Image src={seunbayo} alt="Seunbayo Adebayo" />
             <NameBox
-              name="Seunbayo Adebayo"
+              name="Seunbayo"
               position="Advocacy"
-              linkedinUrl="https://linkedin.com/in/shedrackakintayo"
-              twitterUrl="https://twitter.com/coder_blvck"
+              linkedinUrl="https://www.linkedin.com/in/seunbayo/"
+              twitterUrl="https://twitter.com/seunbayong"
             />
           </div>
           <div>
