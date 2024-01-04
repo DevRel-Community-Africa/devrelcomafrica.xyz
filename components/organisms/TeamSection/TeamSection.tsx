@@ -2,8 +2,8 @@ import Image from "next/image";
 import NameBox from "@/components/atoms/NameBox";
 import shedrack from "@/public/shedrack.png";
 import alexis from "@/public/alexis.png";
-import seunbayo from "@/public/placeholder.png";
-import damilola from "@/public/placeholder.png";
+import seunbayo from "@/public/bayo.png";
+import damilola from "@/public/Damilola.jpeg";
 import amarachi from "@/public/placeholder.png";
 import jamin from "@/public/jamin.png";
 
@@ -38,11 +38,11 @@ export function TeamSection() {
             <NameBox
               name="Seunbayo Adebayo"
               position="Advocacy"
-              linkedinUrl="https://linkedin.com/in/shedrackakintayo"
-              twitterUrl="https://twitter.com/coder_blvck"
+              linkedinUrl="https://www.linkedin.com/in/seunbayo/"
+              twitterUrl="https://twitter.com/seunbayong"
             />
           </div>
-          <div>
+          {/* <div>
             <Image src={amarachi} alt="Amarachi Iheanacho" />
             <NameBox
               name="Amarachi Iheanacho"
@@ -50,14 +50,14 @@ export function TeamSection() {
               linkedinUrl="https://linkedin.com/in/shedrackakintayo"
               twitterUrl="https://twitter.com/coder_blvck"
             />
-          </div>
+          </div> */}
           <div>
             <Image src={damilola} alt="Damilola Ezekiel" />
             <NameBox
               name="Damilola Ezekiel"
               position="Technical Writer"
-              linkedinUrl="https://linkedin.com/in/shedrackakintayo"
-              twitterUrl="https://twitter.com/coder_blvck"
+              linkedinUrl="https://www.linkedin.com/in/damilola-ezekiel"
+              twitterUrl="https://twitter.com/damiezekiel_"
             />
           </div>
           <div>

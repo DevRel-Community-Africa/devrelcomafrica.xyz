@@ -1,12 +1,12 @@
 export function NewsletterSection() {
-  const onFormSubmit = () => {
-    window.open(
-      "https://developbydevrelcom.substack.com/subscribe",
-      "popupwindow",
-      "scrollbars=yes,width=800,height=600",
-    );
-    return true;
-  };
+  // const onFormSubmit = () => {
+  //   window.open(
+  //     "https://developbydevrelcom.substack.com/subscribe",
+  //     "popupwindow",
+  //     "scrollbars=yes,width=800,height=600",
+  //   );
+  //   return true;
+  // };
 
   return (
     <section className="">
