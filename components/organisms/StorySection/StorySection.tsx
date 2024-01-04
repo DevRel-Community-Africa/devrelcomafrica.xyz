@@ -13,13 +13,11 @@ export function StorySection() {
           <p className="mt-10 font-normal text-[#222222] text-lg pt-2 leading-loose relative">
             <span className="font-light">
               Five years ago when I was starting out my tech journey in Nigeria,
-              there was no structured way of learning how to code or design,
-              there was no code bootcamps or physical learning platforms for
-              people that want to learn how to code. Asides from the fact that
-              there was no structured way of learning, the online courses
-              available were so expensive for most of us so we had to teach each
-              other, share free resources with each other and debug together.
-              This was my first experience with a “
+              there was no structured way of learning how to code or design. The
+              online courses and coding bootcamps available were so expensive
+              for most of us so we had to teach each other, share free resources
+              with each other and debug together. This was my first experience
+              with a “
             </span>
             <span className="font-bold">community</span>
             <span className="font-light">
