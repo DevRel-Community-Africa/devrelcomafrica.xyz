@@ -9,6 +9,7 @@ export function StorySection() {
           The story
         </h2>
         <hr className="w-[156px] h-0.5 bg-primary" />
+
         <div>
           <p className="mt-10 font-normal text-[#222222] text-lg pt-2 leading-loose relative">
             <span className="font-light">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import blob from "@/public/blob-aesthetic.png";
 
-export function MissionSection() {
+export function MissionSection(): JSX.Element {
   const missions = [
     {
       id: 1,
@@ -69,15 +69,14 @@ export function MissionSection() {
       </div>
       <div className="container mx-auto px-2 py-2">
         <div className=" mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6 z-10 relative">
-          {missions &&
-            missions.map((mission) => (
-              <div className="bg-white px-5 pb-5 pt-10" key={mission.id}>
-                <hr className=" bg-[#222] h-1 w-[50px]" />
-                <div className="w-85 left-0  text-emerald-700  mt-4 md:text-lg text-normal">
-                  {mission.title}
-                </div>
+          {missions?.map((mission) => (
+            <div className="bg-white px-5 pb-5 pt-10" key={mission.id}>
+              <hr className=" bg-[#222] h-1 w-[50px]" />
+              <div className="w-85 left-0  text-emerald-700  mt-4 md:text-lg text-normal">
+                {mission.title}
               </div>
-            ))}
+            </div>
+          ))}
         </div>
       </div>
       <Image
