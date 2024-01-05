@@ -54,12 +54,12 @@ export function Header() {
             <ul
               className={clsx(
                 open ? "block" : "hidden",
-                "lg:flex justify-between lg:relative absolute lg:bg-transparent bg-secondary left-0 lg:top-0 top-24 lg:w-fit w-full py-8",
+                "lg:flex justify-between lg:relative absolute lg:bg-transparent bg-secondary left-0 lg:top-0 top-24 lg:w-fit w-full py-8"
               )}
             >
               {menuLinks.map((link, i) => (
                 <li key={i} className="px-8 py-2">
-                  <Link href={link.url} target="_blank" className=" text-lg">
+                  <Link href={link.url} className="text-lg">
                     {link.label}
                   </Link>
                 </li>

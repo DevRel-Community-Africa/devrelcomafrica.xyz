@@ -9,7 +9,7 @@ export function NewsletterSection() {
   // };
 
   return (
-    <section className="">
+    <section className="" id="contact">
       <div className="container mx-auto px-8 py-20">
         <h4 className="text-3xl my-2">Subscribe to our Newsletter</h4>
         <p className="text-[#222] font-thin my-2">
