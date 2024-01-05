@@ -48,7 +48,7 @@ export function MissionSection(): JSX.Element {
   ];
 
   return (
-    <section className="bg-green-100 px-8 py-20 relative">
+    <section className="bg-green-100 px-8 py-20 relative" id="mission">
       <div className="container mx-auto px-2 py-2">
         <div className="text-neutral-800 text-[32px] font-semibold">
           The Mission

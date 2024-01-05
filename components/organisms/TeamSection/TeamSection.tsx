@@ -9,7 +9,7 @@ import jamin from "@/public/jamin.png";
 
 export function TeamSection() {
   return (
-    <section className="bg-green-100 px-8 py-20 ">
+    <section className="bg-green-100 px-8 py-20 " id="about">
       <div className="container mx-auto">
         <div className="text-neutral-800 text-[32px] space-y-4 font-semibold">
           Meet the Team

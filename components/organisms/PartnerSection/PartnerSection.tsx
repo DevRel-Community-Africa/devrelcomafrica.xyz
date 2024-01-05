@@ -5,7 +5,7 @@ import DonateBox from "@/components/molecules/DonateBox";
 
 export function PartnerSection() {
   return (
-    <section className="bg-secondary px-8 py-20 relative">
+    <section className="bg-secondary px-8 py-20 relative" id="partners">
       <div className="container mx-auto px-2 py-2">
         <h2 className="text-neutral-800 text-[32px] font-semibold">
           Our Partners
