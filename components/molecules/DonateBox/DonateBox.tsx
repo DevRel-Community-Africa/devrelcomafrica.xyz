@@ -3,7 +3,9 @@ import { useState } from "react";
 import { usePaystackPayment } from "react-paystack";
 import CurrencyInput from "react-currency-input-field";
 
-const donationAmounts = [1000, 10000, 100000, 250000, 500000, 750000, 1000000, 0];
+const donationAmounts = [
+  1000, 10000, 100000, 250000, 500000, 750000, 1000000, 0,
+];
 
 export function DonateBox() {
   const [amount, setAmount] = useState(10000);
